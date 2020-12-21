@@ -1,9 +1,11 @@
-public class main {
-    public static void main(String[] args) {
-        String str1 = "A";
-        String str2 = "A";
-        String str3 = "B";
-        System.out.println(str1.equals(str2));
-        System.out.println(str1.equals(str3));
+import java.util.Scanner;
+     class MainClass {
+                        public static void main(String[] args) {
+                        Scanner sc = new Scanner(System.in);
+                        System.out.println("Введите число: ");
+                        int a = sc.nextInt();
+                        a *= 2;
+                        System.out.println("Введенное вами число, умноженное на 2, равно " + a);
+                        sc.close();
     }
 }
